@@ -1,4 +1,4 @@
-const fetch = require('../../helpers/fetch.helper');
+const fetch = require('../../common/helpers/fetch.helper');
 const getList = () => {
     return new Promise((resolve, reject) => {
         fetch(
