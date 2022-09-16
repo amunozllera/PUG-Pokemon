@@ -1,7 +1,7 @@
 html
-  head
-    title Pug Page
+  include components/head
+  title Pug Page
   body
-    h1 #{message}
+    h1(class='text-6xl mx-auto inline') #{message}
     -var list = list.map(elem => elem.type)
-    include list
+    include components/list

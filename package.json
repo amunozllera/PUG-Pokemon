@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "build:css": "npx tailwindcss-cli@latest build -o src/public/styles/tailwind.css"
   },
   "author": "",
   "license": "ISC",

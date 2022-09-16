@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     controller.getAllData()
     .then(data => {
         res.render('main',{
-            message: 'Hola Mundo',
+            message: 'PokePUG',
             list: data.list
         }); 
     }).catch((err) => {
